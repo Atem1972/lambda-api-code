@@ -1,4 +1,4 @@
-const api_root="utc-app-alb-2049478147.us-east-1.elb.amazonaws.com"
+const api_root="https://jt3co7g4ok.execute-api.us-east-1.amazonaws.com/lambda_api"
 function loadTable(){
     const xhttp = new XMLHttpRequest();
     xhttp.open("GET",api_root + "users");
