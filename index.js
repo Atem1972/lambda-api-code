@@ -1,4 +1,4 @@
-const api_root="https://jt3co7g4ok.execute-api.us-east-1.amazonaws.com/lambda_api"
+const api_root="https://l9z46d5qmc.execute-api.us-east-1.amazonaws.com/pmt-gate"
 function loadTable(){
     const xhttp = new XMLHttpRequest();
     xhttp.open("GET",api_root + "users");
