@@ -1,4 +1,4 @@
-const api_root="https://l9z46d5qmc.execute-api.us-east-1.amazonaws.com/pmt-gate"   ### PLEASE END IT WITH / ie PMT-GATE/"
+const api_root="https://4fk3bu0ra2.execute-api.us-east-1.amazonaws.com/staging1/"   ### PLEASE END IT WITH / ie PMT-GATE/"
 function loadTable(){
     const xhttp = new XMLHttpRequest();
     xhttp.open("GET",api_root + "users");
